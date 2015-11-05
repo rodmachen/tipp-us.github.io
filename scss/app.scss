@@ -120,6 +120,27 @@ border-radius:150px;
 -moz-border-radius:150px;
 }
 
+li.tab-title.active a{
+  border: 1px solid #999;
+}
+
+.features a {
+  /*border: 1px solid black;*/
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.features-image {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+
+.tabs-content {
+  background-color: #efefef;
+}
+
 .tech img:hover {
 opacity:0.5;
 -webkit-transition:.3s ease;
